@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Jua');
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -22,8 +23,8 @@ html {
 body {
   background-image: url("https://cdn.discordapp.com/attachments/430921622292135956/431220797231595530/unknown.png");
   background-repeat: repeat;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 18px/1.4 'Jua', 'Comic Sans';
+  color: #ff1481;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'Jua', 'Comic Sans';
   color: $darkerGray;
   font-weight: bold;
 
